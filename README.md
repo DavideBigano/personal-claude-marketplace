@@ -1,4 +1,4 @@
-# Davide Bigano's Claude Marketplace
+# Davide Bigano's Personal Claude Marketplace
 
 A collection of useful skills for Claude Code.
 

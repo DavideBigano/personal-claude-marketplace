@@ -1,7 +1,7 @@
 {
   "$schema": "https://code.claude.com/schemas/marketplace.schema.json",
   "name": "personal-claude-marketplace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of useful skills for Claude Code",
   "owner": {
     "name": "DavideBigano",
@@ -19,7 +19,7 @@
         "source": "git-subdir",
         "url": "https://github.com/DavideBigano/skillmancy.git",
         "path": "plugin",
-        "ref": "main"
+        "ref": "latest"
       },
       "homepage": "https://github.com/DavideBigano/skillmancy",
       "repository": "https://github.com/DavideBigano/skillmancy"

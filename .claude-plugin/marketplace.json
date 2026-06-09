@@ -23,6 +23,7 @@
 			"repository": "https://github.com/DavideBigano/skillmancy"
 		},
 		{
+			"name": "git-helpers",
 			"displayName": "GitHelpers",
 			"source": {
 				"source": "git-subdir",

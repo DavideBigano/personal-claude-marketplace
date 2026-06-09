@@ -1,28 +1,37 @@
 {
-  "$schema": "https://code.claude.com/schemas/marketplace.schema.json",
-  "name": "personal-claude-marketplace",
-  "version": "1.0.1",
-  "description": "A collection of useful skills for Claude Code",
-  "owner": {
-    "name": "DavideBigano",
-    "email": "roberto.bigano@gmail.com"
-  },
-  "plugins": [
-    {
-      "name": "skillmancy",
-      "displayName": "Skillmancy",
-      "description": "Skills for creating, editing, and reviewing Claude Code skills",
-      "author": {
-        "name": "DavideBigano"
-      },
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/DavideBigano/skillmancy.git",
-        "path": "plugin",
-        "ref": "latest"
-      },
-      "homepage": "https://github.com/DavideBigano/skillmancy",
-      "repository": "https://github.com/DavideBigano/skillmancy"
-    }
-  ]
+	"$schema": "https://code.claude.com/schemas/marketplace.schema.json",
+	"name": "personal-claude-marketplace",
+	"version": "1.1.0",
+	"description": "A collection of useful skills for Claude Code",
+	"owner": {
+		"name": "DavideBigano",
+		"email": "roberto.bigano@gmail.com"
+	},
+	"plugins": [
+		{
+			"name": "skillmancy",
+			"author": {
+				"name": "DavideBigano"
+			},
+			"source": {
+				"source": "git-subdir",
+				"url": "https://github.com/DavideBigano/skillmancy.git",
+				"path": "plugin",
+				"ref": "latest"
+			},
+			"homepage": "https://github.com/DavideBigano/skillmancy",
+			"repository": "https://github.com/DavideBigano/skillmancy"
+		},
+		{
+			"displayName": "GitHelpers",
+			"source": {
+				"source": "git-subdir",
+				"url": "https://github.com/DavideBigano/git-helpers.git",
+				"path": "plugin",
+				"ref": "latest"
+			},
+			"homepage": "https://github.com/DavideBigano/git-helpers",
+			"repository": "https://github.com/DavideBigano/git-helpers"
+		}
+	]
 }

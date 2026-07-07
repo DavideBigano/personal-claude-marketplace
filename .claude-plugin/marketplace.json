@@ -1,15 +1,16 @@
 {
 	"$schema": "https://code.claude.com/schemas/marketplace.schema.json",
 	"name": "personal-claude-marketplace",
-	"version": "1.2.0",
+	"version": "1.3.0",
 	"description": "A collection of useful skills for Claude Code",
 	"owner": {
 		"name": "Davide Bigano",
-		"email": "roberto.bigano@gmail.com"
+		"email": "davide.bigano@gmail.com"
 	},
 	"plugins": [
 		{
 			"name": "skillmancy",
+			"displayName": "Skillmancy",
 			"source": {
 				"source": "git-subdir",
 				"url": "https://github.com/DavideBigano/skillmancy.git",
@@ -26,18 +27,19 @@
 				"source": "git-subdir",
 				"url": "https://github.com/DavideBigano/git-helpers.git",
 				"path": "plugin",
-				"ref": "latest"
+				"ref": "v1.0.0"
 			},
 			"homepage": "https://github.com/DavideBigano/git-helpers",
 			"repository": "https://github.com/DavideBigano/git-helpers"
 		},
 		{
 			"name": "okf-wiki",
+			"displayName": "OkfWiki",
 			"source": {
 				"source": "git-subdir",
 				"url": "https://github.com/DavideBigano/okf-wiki.git",
 				"path": "plugin",
-				"ref": "latest"
+				"ref": "v0.2.0"
 			},
 			"homepage": "https://github.com/DavideBigano/okf-wiki",
 			"repository": "https://github.com/DavideBigano/okf-wiki"
